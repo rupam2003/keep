@@ -12,7 +12,7 @@ const Note = (props) => {
     const [id, setid] = useState(props.id)
     const handleSubmit = async (e) =>{
         e.preventDefault()
-        const res = await fetch(`http://keep-black-two.vercel.app/api/${props.endpoint}` , {
+        const res = await fetch(`https://keep-black-two.vercel.app/api/${props.endpoint}` , {
           method: "POST",
           headers:{
             "Content-Type" : "application/json",
