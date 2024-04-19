@@ -11,10 +11,7 @@ import NotesContainer from './Components/NotesContainer'
 const page = async () => {
   
   const session = await getServerSession(authOptions)
-  if(!session)
-  {
-    redirect("/login")
-  }
+ 
   const colors = ["#FFCF7D",
     "#BE9EFF",
     "#E7F19A",
