@@ -12,7 +12,7 @@ const DeleteButton = (props) => {
     const note_id = props.id
     const handleSubmit = async (e) =>{
         e.preventDefault()
-        const res = await fetch(`http://keep-black-two.vercel.app/api/deleteNote` , {
+        const res = await fetch(`https://keep-black-two.vercel.app/api/deleteNote` , {
           method: "DELETE",
           headers:{
             "Content-Type" : "application/json",
