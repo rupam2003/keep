@@ -22,7 +22,7 @@ const page = async () => {
     "#FEA57D"]
 
   const email = session.user.email
-  const res = await fetch("http://keep-black-two.vercel.app/api/allNotes" , {
+  const res = await fetch("https://keep-black-two.vercel.app/api/allNotes" , {
     method:"POST",
     headers:{
       "Content-Type" : "application/json",
