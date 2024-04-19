@@ -16,7 +16,7 @@ const page = async ({params}) => {
     }
     const id = params.id
   const email = session.user.email
-  const res = await fetch("http://keep-black-two.vercel.app/api/getNote" , {
+  const res = await fetch("https://keep-black-two.vercel.app/api/getNote" , {
     method:"POST",
     headers:{
       "Content-Type" : "application/json",
