@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+
+    
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
+body{
+   color: black;
+    /* background-color: #202124; */
+    background-color: white;
+    color: black;
+}
+::-webkit-scrollbar{
+    display: none; 
+  }
+.note-card:nth-of-type(5n-4){
+   background: #FFCF7D;
+}
+.note-card:nth-of-type(5n-3){
+    background: #BE9EFF;
+ }
+ .note-card:nth-of-type(5n-2){
+    background: #E7F19A;
+ }
+ .note-card:nth-of-type(5n-1){
+    background: #05D9FE;
+ }
+ .note-card:nth-of-type(5n){
+    background: #FEA57D;
+ }
