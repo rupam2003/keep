@@ -56,10 +56,10 @@ const Page = () => {
   return (
     <div className='  flex flex-col items-center'>
         <form onSubmit={handleSubmit} className=' mt-[25vh] flex flex-col'>
-            <input onChange={(e)=>{setname(e.target.value)}} className=' outline-none px-3 py-1.5 bg-opacity-25 font-semibold rounded-xl w-[300px] my-2 bg-gray-300 text-black' type='text' placeholder='Name' value={name}/>
-            <input onChange={(e)=>{setemail(e.target.value)}} className=' outline-none px-3 py-1.5 bg-opacity-25 font-semibold rounded-xl w-[300px] my-2 bg-gray-300 text-black' type='text' placeholder='Email' value={email} />
-            <input onChange={(e)=>{setpasword(e.target.value)}} className=' outline-none px-3 py-1.5 bg-opacity-25 font-semibold rounded-xl w-[300px] my-2 bg-gray-300 text-black' type='text' placeholder='Password' value={password}/>
-            <button  className='bg-green-500 p-1.5 font-bold rounded-md w-[300px] my-2' >REGISTER</button>
+            <input onChange={(e)=>{setname(e.target.value)}} className=' outline-none px-3 py-1.5 bg-opacity-25 font-semibold rounded-xl w-[250px] my-2 bg-gray-300 text-black' type='text' placeholder='Name' value={name}/>
+            <input onChange={(e)=>{setemail(e.target.value)}} className=' outline-none px-3 py-1.5 bg-opacity-25 font-semibold rounded-xl w-[250px] my-2 bg-gray-300 text-black' type='text' placeholder='Email' value={email} />
+            <input onChange={(e)=>{setpasword(e.target.value)}} className=' outline-none px-3 py-1.5 bg-opacity-25 font-semibold rounded-xl w-[250px] my-2 bg-gray-300 text-black' type='text' placeholder='Password' value={password}/>
+            <button  className='bg-green-500 p-1.5 font-bold rounded-md w-[250px] my-2' >REGISTER</button>
         </form>
         <h1>Already have an account?
        <Link className=' text-green-600' href={"/login"}> Login</Link>
