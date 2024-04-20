@@ -60,9 +60,9 @@ const Page = () => {
        
 
         <><form onSubmit={handleSubmit} className='mt-[25vh]   flex flex-col items-center'>
-            <input onChange={(e)=>{setemail(e.target.value)}} className='py-1.5 px-3 outline-none font-semibold rounded-xl w-[300px] my-2 bg-opacity-25 bg-gray-300' type='text' placeholder='Email' value={email} />
-            <input onChange={(e)=>{setpasword(e.target.value)}} className='py-1.5 px-3 outline-none font-semibold rounded-xl w-[300px] my-2 bg-opacity-25 bg-gray-300' type='text' placeholder='Password' value={password}/>
-            <button  className= 'text-black bg-green-500 p-1.5 font-bold rounded-md w-[300px]  my-2' >{login}</button>
+            <input onChange={(e)=>{setemail(e.target.value)}} className='py-1.5 px-3 outline-none font-semibold rounded-xl w-[250px] my-2 bg-opacity-25 bg-gray-300' type='text' placeholder='Email' value={email} />
+            <input onChange={(e)=>{setpasword(e.target.value)}} className='py-1.5 px-3 outline-none font-semibold rounded-xl w-[250px] my-2 bg-opacity-25 bg-gray-300' type='text' placeholder='Password' value={password}/>
+            <button  className= 'text-black bg-green-500 p-1.5 font-bold rounded-md w-[250px]  my-2' >{login}</button>
         
 
         </form>
