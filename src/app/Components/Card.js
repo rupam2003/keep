@@ -6,7 +6,7 @@ const Card = (props) => {
 
   
   return (
-    <div style={{background:props.color}} className= {` note-card text-black rounded-lg  m-2 p-5 border-white`}>
+    <div style={{background:props.color}} className= {` note-card text-black rounded-lg  m-2 p-5 border-white transition-all shadow-lg hover:scale-105 hover:shadow-2xl`}>
         
         <Link href={`/note/${props.id}`}> 
             <h1 className='line-clamp-1 font-semibold text-2xl' >{props.title}</h1>
