@@ -1,5 +1,5 @@
 import { getServerSession } from 'next-auth'
-import React from 'react'
+import React, { Suspense } from 'react'
 import { redirect } from 'next/navigation'
 import { authOptions } from './api/auth/[...nextauth]/route'
 import Link from 'next/link'
