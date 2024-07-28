@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Card from './Components/Card'
 import AddButton from './Components/AddButton'
 import NotesContainer from './Components/NotesContainer'
-
+import Loading from './Components/Loading'
 
 const page = async () => {
   
