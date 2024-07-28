@@ -37,12 +37,14 @@ const page = async () => {
 
   return (
     <>
+    <Suspense fallback={<Loading/>}>
     <h1 className='my-20 text-5xl text-center font-bold mx-5'>Keep all your notes<br/> Organized.</h1>
     <div className='mx-2 grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 '>
     <NotesContainer notes = {notes}/>
       
     </div>
     <AddButton/>
+    </Suspense>
     </>
   )
 }
